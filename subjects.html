@@ -22,6 +22,31 @@ body{
     object-fit: cover;
 }
 
+.subject-card{
+transition: transform 0.3s, box-shadow 0.3s;
+border-radius: 12px;
+}
+
+.subject-card:hover{
+transform: translateY(-8px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+h1,h2,h3{
+color:#1f3c88;
+font-weight:bold;
+}
+
+.btn-primary{
+background-color:#1f3c88;
+border:none;
+}
+
+.btn-primary:hover{
+background-color:#152b63;
+}
+
 </style>
 
 </head>
@@ -41,51 +66,90 @@ their understanding and improve school performance.
 
 <div class="row">
 
-<!-- Math -->
+<!-- MATH -->
 <div class="col-md-4 mb-4">
-<div class="card shadow-sm">
-<img src="Images/math.jpg" class="card-img-top" alt="Math Tutoring">
-<div class="card-body">
-<h4 class="card-title">Mathematics</h4>
-<p class="card-text">
-We provide step-by-step guidance in arithmetic, algebra, geometry, and problem-solving skills 
-to build strong mathematical foundations.
-</p>
-</div>
-</div>
-</div>
+<a href="#math" style="text-decoration:none; color:black;">
+<div class="card shadow-sm subject-card">
 
-<!-- English -->
-<div class="col-md-4 mb-4">
-<div class="card shadow-sm">
-<img src="Images/english.jpeg" class="card-img-top" alt="English Tutoring">
-<div class="card-body">
-<h4 class="card-title">English</h4>
-<p class="card-text">
-Students receive assistance in grammar, reading comprehension, vocabulary development, 
-and writing improvement.
-</p>
-</div>
-</div>
-</div>
+<img src="images/math.jpg" class="card-img-top" alt="Math Tutoring">
 
-<!-- Science -->
-<div class="col-md-4 mb-4">
-<div class="card shadow-sm">
-<img src="Images/science.jpg" class="card-img-top" alt="Science Tutoring">
-<div class="card-body">
-<h4 class="card-title">Science</h4>
-<p class="card-text">
-Tutoring includes general science concepts, biology basics, chemistry fundamentals, 
-and practical understanding of scientific topics.
-</p>
-</div>
-</div>
+<div class="card-body text-center">
+<h4><strong>Math</strong></h4>
+<p>Step-by-step guidance in algebra, arithmetic, geometry and problem solving.</p>
 </div>
 
 </div>
+</a>
+</div>
+
+<!-- ENGLISH -->
+<div class="col-md-4 mb-4">
+<a href="#english" style="text-decoration:none; color:black;">
+<div class="card shadow-sm subject-card">
+
+<img src="images/english.jpeg" class="card-img-top" alt="English Tutoring">
+
+<div class="card-body text-center">
+<h4><strong>English</strong></h4>
+<p>Reading comprehension, grammar improvement, and writing skills.</p>
+</div>
+
+</div>
+</a>
+</div>
+
+<!-- SCIENCE -->
+<div class="col-md-4 mb-4">
+<a href="#science" style="text-decoration:none; color:black;">
+<div class="card shadow-sm subject-card">
+
+<img src="/Images/science" class="card-img-top" alt="Science Tutoring">
+
+<div class="card-body text-center">
+<h4><strong>Science</strong></h4>
+<p>Basic biology, chemistry and scientific concepts.</p>
+</div>
+
+</div>
+</a>
+</div>
+
+</div>
+</section>
 
 <hr class="my-5">
+
+<hr class="my-5">
+
+<h2 id="math">Mathematics Topics Offered</h2>
+<p>Our volunteer tutors can assist students with the following mathematics topics:</p>
+<ul>
+<li>Basic Arithmetic (Addition, Subtraction, Multiplication, Division)</li>
+<li>Fractions and Decimals</li>
+<li>Basic Algebra Concepts</li>
+<li>Geometry Fundamentals</li>
+<li>Problem Solving Strategies</li>
+</ul>
+
+<h2 id="english" class="mt-5">English Topics Offered</h2>
+<p>Students can receive tutoring assistance in the following English areas:</p>
+<ul>
+<li>Reading Comprehension</li>
+<li>Grammar and Sentence Construction</li>
+<li>Vocabulary Development</li>
+<li>Essay Writing</li>
+<li>Basic Public Speaking</li>
+</ul>
+
+<h2 id="science" class="mt-5">Science Topics Offered</h2>
+<p>Science tutoring includes guidance in these subjects:</p>
+<ul>
+<li>General Science Concepts</li>
+<li>Basic Biology</li>
+<li>Introduction to Chemistry</li>
+<li>Earth Science</li>
+<li>Scientific Method and Experiments</li>
+</ul>
 
 <h3>Important Notes</h3>
 <ul>
